@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
 
 /* Anjali */
@@ -100,97 +100,167 @@
 }
 /* Anjali */
 /* bhaskar */
-.body-right{
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    /* border: 1px solid red ; */
-    margin-left: 30px;
-    box-sizing: border-box;
-    padding: 10px 20px;
+.body-right {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  /* border: 1px solid red ; */
+  margin-left: 30px;
+  box-sizing: border-box;
+  padding: 10px 20px;
 }
-.body-right input{
-    width: 100%;
-    height: 48px;
-    border: 1px solid #DADADA    ;
-    border-radius: 7px;
-    margin-bottom: 56px;
+.body-right input {
+  width: 100%;
+  height: 48px;
+  border: 1px solid #dadada;
+  border-radius: 7px;
+  margin-bottom: 56px;
 }
-.body-right input::placeholder{
-    font-size: 16px;
-    font-family: 'DM Sans', sans-serif;
-    padding-left: 16px;
-    padding-top: 13px;
+.body-right input::placeholder {
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  padding-left: 16px;
+  padding-top: 13px;
 }
-.body-right h1{
-    font-family: 'DM Serif Display', serif;
-    font-size: 24px;
-    font-weight: 400;
-    margin-bottom: 40px;
-    line-height: 32px;
+.body-right h1 {
+  font-family: "DM Serif Display", serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 40px;
+  line-height: 32px;
 }
-.body-right .category{
-    margin-bottom: 55px;
+.body-right .category {
+  margin-bottom: 55px;
 }
-.body-right .list{
-    font-size: 16px;
-    display: flex;
-    justify-content: space-between;
-    font-family: 'DM Sans', sans-serif;
-    line-height: 24px;
-} 
-.body-right .category hr{
-    margin-top: 9px;
-    margin-bottom: 14px;
-    opacity: 0.3;
+.body-right .list {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "DM Sans", sans-serif;
+  line-height: 24px;
 }
-.body-right .list > p:nth-child(1){
-    font-weight:900;
+.body-right .category hr {
+  margin-top: 9px;
+  margin-bottom: 14px;
+  opacity: 0.3;
 }
-.body-right .recent-post{
-    margin-bottom: 48px;
+.body-right .list > p:nth-child(1) {
+  font-weight: 900;
+}
+.body-right .recent-post {
+  margin-bottom: 48px;
+}
+.body-right .post {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.body-right .post img {
+  width: 70px;
+  height: 48px;
+  border-radius: 5px;
+}
+.body-right .post .description {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  width: 70%;
+  margin-right: 20px;
+}
+.body-right .post .description > p:last-child {
+  font-size: 12px;
+  font-weight: 700;
+}
+.body-right .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 14px;
+  row-gap: 16px;
+  justify-content: flex-start;
+  align-items: center;
+}
 
-}
-.body-right .post{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 24px;
-}
-.body-right .post img{
-    width: 70px;
-    height: 48px;
-    border-radius: 5px;
-}
-.body-right .post .description{
-    font-family: 'DM Sans', sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-    width: 70%;
-    margin-right: 20px;
-}
-.body-right .post .description>p:last-child{
-    font-size: 12px;
-    font-weight: 700;
-}
-.body-right .buttons{
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 14px;
-    row-gap: 16px;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.body-right .tags button{
-    height: 32px;
-    border: 1px solid #DADADA    ;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    color: #434CCC;
-    background-color: white;
-    line-height: 24px;
-    border-radius: 8px;
-    padding: 0px 13px;
+.body-right .tags button {
+  height: 32px;
+  border: 1px solid #dadada;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #434ccc;
+  background-color: white;
+  line-height: 24px;
+  border-radius: 8px;
+  padding: 0px 13px;
 }
 /* bhaskar */
+/* Utkarsh */
+footer {
+  background: rgba(67, 76, 204, 0.0515);
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
+
+.container {
+  max-width: 1170px;
+  flex-grow: 1;
+  margin-top: 80px;
+  display: flex;
+}
+
+.footer-col {
+  flex-grow: 1;
+}
+
+.logo-social {
+  flex-basis: 33.32%;
+}
+
+.causae {
+  flex-basis: 16.66%;
+}
+
+.aperiri {
+  flex-basis: 16.66%;
+}
+
+.latest-posts {
+  flex-basis: 33.32%;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.footer-logo {
+  margin-bottom: 40px;
+}
+
+.social {
+  display: flex;
+  gap: 13px;
+}
+
+.aboutus {
+  width: 270px;
+  margin-bottom: 32px;
+}
+
+.latest-post {
+  display: flex;
+  gap: 30px;
+}
+
+.latest-post__image {
+  height: 48px;
+  flex-grow: 0;
+  width: 71px;
+  border-radius: 8px;
+}
+
+.latest-post__content {
+  display: flex;
+  gap: 26px;
+  flex-direction: column;
+}
+
+/* Utkarsh */
