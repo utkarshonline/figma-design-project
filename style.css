@@ -6,6 +6,10 @@
 }
 
 /* Anjali */
+.body-left div:nth-child(2),div:nth-child(3){
+  margin-top:20px;
+}
+
 .cardsl{
     height: 750px;
     width: 790px;
@@ -92,7 +96,7 @@
     height: 32px;
     width: 32px;
     padding-left: 15px;
-    margin-top: -5px;
+    margin-top: -3px;
     
 }
 .downl{
