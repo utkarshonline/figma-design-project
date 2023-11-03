@@ -9,7 +9,6 @@ body{
 }
 /* shashank */
 nav {
-  width: 1440px;
   height: 80px;
   background-color: rgb(67, 76, 204);
   display: flex;
@@ -26,21 +25,29 @@ nav h3 {
 nav div {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 10px;
   padding-right: 135px;
 }
 nav div a {
+  height: 35px;
+  width: 100px;
   text-decoration: none;
   color: #FFF;
   font-family: "DM Sans", sans-serif;
   font-size: 16px;
   font-weight: 700;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 nav div button {
+  margin-left: 30px;
   height: 48px;
   width: 170px;
   color: #FFF;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   background-color: rgb(67, 76, 204);
   color: #FFF;
@@ -49,13 +56,16 @@ nav div button {
   font-weight: 700;
   cursor: pointer;
 }
+nav div button:hover , nav div a:hover{
+  background-color: white;
+  color: rgb(67, 76, 204);
+}
 
-.about {
+header .about {
   height: 224px;
-  width: 1440px;
   background-color: rgb(67, 76, 204);
 }
-.about h1 {
+header .about h1 {
   padding-top: 47px;
   color: #FFF;
   text-align: center;
@@ -63,7 +73,7 @@ nav div button {
   font-size: 72px;
   font-weight: 400;
 }
-.about p {
+header .about p {
   padding-top: 10px;
   color: white;
   text-align: center;
@@ -73,13 +83,10 @@ nav div button {
   font-weight: 400;
 }
 
-* {
-  margin: auto;
-}
 /* shashank */
 
 /* Main content */
-.body{
+main{
   display: flex;
   box-sizing: border-box;
   padding: 64px 135px ;
@@ -245,7 +252,7 @@ nav div button {
   font-family: "DM Sans", sans-serif;
   font-size: 16px;
   line-height: 24px;
-  width: 70%;
+  width: 65%;
   margin-right: 20px;
 }
 .body-right .post .description > p:last-child {
