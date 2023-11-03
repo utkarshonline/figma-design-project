@@ -4,24 +4,35 @@
   margin: 0;
   padding: 0;
 }
+body{
+  background-color : rgba(67, 76, 204, 0.0515);
+}
+/* shashank */
+
+/* shashank */
+
+/* Main content */
+.body{
+  display: flex;
+  box-sizing: border-box;
+  padding: 64px 135px ;
+}
+/* Main content */
 
 /* Anjali */
 .body-left div:nth-child(2),div:nth-child(3){
   margin-top:20px;
 }
 
-.cardsl{
+.body-left .cardsl{
     height: 750px;
     width: 790px;
-    /* background: rgba(255, 255, 255, 1); */
     box-shadow: rgba(0, 0, 0, 0.3);
-    margin-top: 368px;
-    margin-left: 135px;
     border: 1px solid #ccc;
     background-color: rgba(255, 255, 255, 1);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
-.imagel{
+.body-left .imagel{
     width: 750px;
     height: 416px;
     margin-left: 20px;
@@ -29,7 +40,7 @@
     
     
 }
-.hl{
+.body-left .hl{
     width: 98px;
     height: 24px;
     font-size: 16px;
@@ -39,7 +50,7 @@
     margin-top: 10px;
     margin-left: 20px;
 }
-.pl{
+.body-left .pl{
    height: 64px; 
    width: 746px;
    font-size: 56px;
@@ -48,7 +59,7 @@
    margin-top: 10px;
    margin-left: 20px;
 }
-.pl2{
+.body-left .pl2{
     width: 770px;
     height: 81px;
     margin-top: 10px;
@@ -59,7 +70,7 @@
     margin-left: 20px;
 
 }
-.hr{
+.body-left .hr{
     width: 750px;
     height: 1px;
     background-color: #000000;
@@ -67,7 +78,7 @@
     margin-top: 20px;
 
 }
-.downl2{
+.body-left .downl2{
   height: 24px;
   width: 100px;
   font-size: 16px;
@@ -77,29 +88,28 @@
   margin-top: 35px;
   font-family: sans-serif;
 }
-.date{
+.body-left .date{
     display: flex;
     margin-left: 370px;
     margin-top: 35px;
-   
 }
-.datel{
+.body-left .datel{
     color: #ac9d9d;
     padding-left: 10px;
 
 }
-.namel{
+.body-left .namel{
     font-weight: 500;
     padding-left: 15px;
 }
-.imgl{
+.body-left .imgl{
     height: 32px;
     width: 32px;
     padding-left: 15px;
     margin-top: -3px;
     
 }
-.downl{
+.body-left .downl{
     display: flex;
 }
 /* Anjali */
@@ -205,63 +215,63 @@ footer {
   height: 400px;
 }
 
-.container {
+footer .container {
   max-width: 1170px;
   flex-grow: 1;
   margin-top: 80px;
   display: flex;
 }
 
-.footer-col {
+footer .footer-col {
   flex-grow: 1;
 }
 
-.logo-social {
+footer .logo-social {
   flex-basis: 33.32%;
 }
 
-.causae {
+footer .causae {
   flex-basis: 16.66%;
 }
 
-.aperiri {
+footer .aperiri {
   flex-basis: 16.66%;
 }
 
-.latest-posts {
+footer .latest-posts {
   flex-basis: 33.32%;
   display: flex;
   flex-direction: column;
   gap: 36px;
 }
 
-.footer-logo {
+footer .footer-logo {
   margin-bottom: 40px;
 }
 
-.social {
+footer .social {
   display: flex;
   gap: 13px;
 }
 
-.aboutus {
+footer .aboutus {
   width: 270px;
   margin-bottom: 32px;
 }
 
-.latest-post {
+footer .latest-post {
   display: flex;
   gap: 30px;
 }
 
-.latest-post__image {
+footer .latest-post__image {
   height: 48px;
   flex-grow: 0;
   width: 71px;
   border-radius: 8px;
 }
 
-.latest-post__content {
+footer .latest-post__content {
   display: flex;
   gap: 26px;
   flex-direction: column;
