@@ -175,16 +175,55 @@ main{
 .body-left .namel{
     font-weight: 500;
     padding-left: 15px;
+    margin-top: -4px;
 }
 .body-left .imgl{
     height: 32px;
     width: 32px;
     padding-left: 15px;
-    margin-top: -3px;
+    margin-top: -4px;
     
 }
 .body-left .downl{
     display: flex;
+}
+.slider-button{
+  margin-left: 160px;
+  margin-top: 48px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 80px;
+  align-items: center;
+  gap: 8px;
+}
+.arrow-btn-arrow{
+  background-color: #f5f6fc;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #0074D9;
+  border-radius: 5px;
+  font-weight: 800px;
+  cursor: pointer;
+  
+}
+.arrow-btn-arrow:hover{
+ border: 3px solid #0074D9;
+}
+.arrow-btn{
+  width: 48px;
+  height: 48px;
+  background-color: #f5f6fc;
+  flex-shrink: 0;
+  color: #0074D9;
+  border: 1px solid #0074D9;
+  border-radius: 5px;
+  font-weight: 800;
+  fill:#434ccc;
+}
+.arrow-btn:hover{
+  background-color: #434ccc;
+  color: #FFF;
+
 }
 /* Anjali */
 /* bhaskar */
