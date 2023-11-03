@@ -160,27 +160,6 @@ div:nth-child(3) {
   margin-top: 35px;
   font-family: sans-serif;
 }
-<<<<<<< HEAD
-.body-left .date {
-  display: flex;
-  margin-left: 370px;
-  margin-top: 35px;
-}
-.body-left .datel {
-  color: #ac9d9d;
-  padding-left: 10px;
-}
-.body-left .namel {
-  font-weight: 500;
-  padding-left: 15px;
-  margin-top: -4px;
-}
-.body-left .imgl {
-  height: 32px;
-  width: 32px;
-  padding-left: 15px;
-  margin-top: -4px;
-=======
 .date{
     display: flex;
     margin-left: 370px;
@@ -202,18 +181,12 @@ div:nth-child(3) {
     padding-left: 15px;
     margin-bottom: 40px;
     
->>>>>>> 662dbf39189a7f92b0a73b4d4e73fd670eb35cd2
 }
 .body-left .downl {
   display: flex;
 }
-<<<<<<< HEAD
-.slider-button {
-  margin-left: 160px;
-=======
 .slider-button{
   margin-left: 200px;
->>>>>>> 662dbf39189a7f92b0a73b4d4e73fd670eb35cd2
   margin-top: 48px;
   display: flex;
   flex-direction: row;
@@ -243,6 +216,7 @@ div:nth-child(3) {
   border-radius: 5px;
   font-weight: 800;
   fill: #434ccc;
+  font-family: "DM Sans", sans-serif;
 }
 .arrow-btn:hover {
   background-color: #434ccc;
