@@ -160,32 +160,30 @@ div:nth-child(3) {
   margin-top: 35px;
   font-family: sans-serif;
 }
-.date{
-    display: flex;
-    margin-left: 370px;
+.date {
+  display: flex;
+  margin-left: 370px;
 }
-.body-left .datel{
-    color: #ac9d9d;
-    padding-left: 10px;
-    margin-top: 20px;
-
+.body-left .datel {
+  color: #ac9d9d;
+  padding-left: 10px;
+  margin-top: 20px;
 }
-.body-left .namel{
-    font-weight: 800;
-    padding-left: 15px;
-    margin-top: -10px;
+.body-left .namel {
+  font-weight: 800;
+  padding-left: 15px;
+  margin-top: -10px;
 }
-.body-left .imgl{
-    height: 32px;
-    width: 32px;
-    padding-left: 15px;
-    margin-bottom: 40px;
-    
+.body-left .imgl {
+  height: 32px;
+  width: 32px;
+  padding-left: 15px;
+  margin-bottom: 40px;
 }
 .body-left .downl {
   display: flex;
 }
-.slider-button{
+.slider-button {
   margin-left: 200px;
   margin-top: 48px;
   display: flex;
@@ -277,7 +275,7 @@ div:nth-child(3) {
 }
 .body-right .post {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin-bottom: 24px;
 }
 .body-right .post img {
@@ -290,7 +288,7 @@ div:nth-child(3) {
   font-size: 16px;
   line-height: 24px;
   width: 65%;
-  margin-right: 20px;
+  margin-left: 6%;
 }
 .body-right .post .description > p:last-child {
   font-size: 12px;
@@ -319,14 +317,11 @@ div:nth-child(3) {
 }
 /* bhaskar */
 /* Utkarsh */
-* {
-  margin: 0px;
-  padding: 0px;
-}
 .fmain {
   height: 352px;
   display: flex;
   align-items: center;
+  justify-content: space-around;
   background-color: #ffdd78;
 }
 .left {
@@ -382,40 +377,35 @@ div:nth-child(3) {
 
 footer {
   background: rgba(67, 76, 204, 0.0515);
-  display: flex;
-  justify-content: center;
-  height: 400px;
 }
 
 footer .container {
-  max-width: 1170px;
-  flex-grow: 1;
-  margin-top: 80px;
+  padding-top: 80px;
   display: flex;
-}
-
-footer .footer-col {
-  flex-grow: 1;
+  align-items: flex-start;
 }
 
 footer .logo-social {
-  flex-basis: 33.32%;
+  width: 33.32%;
+  box-sizing: border-box;
+  padding: 0px 3%;
+
 }
 
 footer .causae {
-  flex-basis: 16.66%;
+  width: 16.66%;
+
+}
+footer .causae li , footer .aperiri li{
+  list-style: none;
+  padding: 3px 0px;
 }
 
 footer .aperiri {
-  flex-basis: 16.66%;
+  width: 16.2%;
+  margin-top: 0px;
 }
 
-footer .latest-posts {
-  flex-basis: 33.32%;
-  display: flex;
-  flex-direction: column;
-  gap: 36px;
-}
 
 footer .footer-logo {
   margin-bottom: 40px;
@@ -427,8 +417,16 @@ footer .social {
 }
 
 footer .aboutus {
-  width: 270px;
+  width: 70%;
   margin-bottom: 32px;
+}
+
+footer .latest-posts {
+  width: 33.32%;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+
 }
 
 footer .latest-post {
@@ -445,8 +443,28 @@ footer .latest-post__image {
 
 footer .latest-post__content {
   display: flex;
-  gap: 26px;
+  gap: 5px;
   flex-direction: column;
+  font-family: DM Sans;
+  font-size: 16px;
 }
 
+footer .latest-post__date{
+  font-weight: 700;
+  font-size: 12px;
+}
+footer hr{
+  opacity: 0.6;
+  margin-top: 70px;
+}
+footer .bottom{
+  box-sizing: border-box;
+  padding: 7px 135px;
+  display: flex;
+  justify-content: space-between;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  color: #00000080;
+}
 /* Utkarsh */
