@@ -371,7 +371,7 @@ div:nth-child(3) {
   margin-right: 135px;
 }
 .right button:hover {
-  width: 175px;
+  width: 170px;
   height: 53px;
 }
 
@@ -389,14 +389,13 @@ footer .logo-social {
   width: 33.32%;
   box-sizing: border-box;
   padding: 0px 3%;
-
 }
 
 footer .causae {
   width: 16.66%;
-
 }
-footer .causae li , footer .aperiri li{
+footer .causae li,
+footer .aperiri li {
   list-style: none;
   padding: 3px 0px;
 }
@@ -405,7 +404,6 @@ footer .aperiri {
   width: 16.2%;
   margin-top: 0px;
 }
-
 
 footer .footer-logo {
   margin-bottom: 40px;
@@ -426,7 +424,6 @@ footer .latest-posts {
   display: flex;
   flex-direction: column;
   gap: 36px;
-
 }
 
 footer .latest-post {
@@ -449,15 +446,15 @@ footer .latest-post__content {
   font-size: 16px;
 }
 
-footer .latest-post__date{
+footer .latest-post__date {
   font-weight: 700;
   font-size: 12px;
 }
-footer hr{
+footer hr {
   opacity: 0.6;
   margin-top: 70px;
 }
-footer .bottom{
+footer .bottom {
   box-sizing: border-box;
   padding: 7px 135px;
   display: flex;
