@@ -18,4 +18,4 @@ This project aims to replicate a specific Figma design during a Construct Week b
 - *HTML and CSS:* The implementation is achieved using HTML and CSS only, demonstrating front-end development skills.
 
 # Page Preview :
-<img src="" alt="">
+<img src="https://github.com/utkarshonline/deluxe-change-1738/assets/135942341/a8200a0e-784a-4af5-9f23-9aaa8cb01f79" alt="">
