@@ -16,3 +16,6 @@ This project aims to replicate a specific Figma design during a Construct Week b
 
 - *Figma Design Clone:* This project replicates a Figma design to closely match the original layout and aesthetics.
 - *HTML and CSS:* The implementation is achieved using HTML and CSS only, demonstrating front-end development skills.
+
+# Page Preview :
+<img src="" alt="">
